@@ -131,18 +131,18 @@ My thinking was:
 ## Attempt Take 1:
 
 - Had some errors when importing images, much dirtier data set:
-    ![51437202ce1f140c230a71d5064cf29e.png](../../../_resources/51437202ce1f140c230a71d5064cf29e.png)
+    ![51437202ce1f140c230a71d5064cf29e.png](_resources/51437202ce1f140c230a71d5064cf29e.png)
 - Error rates are much higher: increased fine tuning epochs to decrease error rate:
-    ![38ca0fbc8199d48f6f13c3d77b6321ec.png](../../../_resources/38ca0fbc8199d48f6f13c3d77b6321ec.png)
+    ![38ca0fbc8199d48f6f13c3d77b6321ec.png](_resources/38ca0fbc8199d48f6f13c3d77b6321ec.png)
 - Results: Min error: 15% after 6 epochs. Confident alligators are alligators, also fairly confident crocodiles are alligators :/
-    ![43c748c3776d62df3d0e5c12ebf955ac.png](../../../_resources/43c748c3776d62df3d0e5c12ebf955ac.png)
-    ![b690104d8c298a01a479f40f1e651abe.png](../../../_resources/b690104d8c298a01a479f40f1e651abe.png)
+    ![43c748c3776d62df3d0e5c12ebf955ac.png](_resources/43c748c3776d62df3d0e5c12ebf955ac.png)
+    ![b690104d8c298a01a479f40f1e651abe.png](_resources/b690104d8c298a01a479f40f1e651abe.png)
 
 ## Attempt 2:
 
 - Realized, though i eliminated "photo" from search for the first results, I didn't eliminate the term "photo" for the batch image search - the photo term resulted in a bunch of non-animal images (logos, shoes and bags, etc)
 - After eliminating, error dropped to 12% after 4 epochs and was able to correctly identify initial crocodile vs alligator images:
-    ![e1f2e382710452b426273b2b984c88e4.png](../../../_resources/e1f2e382710452b426273b2b984c88e4.png)
+    ![e1f2e382710452b426273b2b984c88e4.png](_resources/e1f2e382710452b426273b2b984c88e4.png)
 
 Interesting example of need for more curated data set!
 Can I trust people are correctly uploading/distinguishing between crocs/gators? 
