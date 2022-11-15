@@ -2,9 +2,6 @@
 title: Practical Deep Learning 2022 course
 updated: 2022-11-15 05:42:43Z
 created: 2022-07-30 17:34:36Z
-latitude: 45.52306220
-longitude: -122.67648160
-altitude: 0.0000
 ---
 
 # Summary
